@@ -1,0 +1,81 @@
+table {
+--bs-table-bg: transparent;
+--bs-table-accent-bg: transparent;
+--bs-table-striped-color: #b7b7b7;
+--bs-table-striped-bg: rgba(0,0,0,.05);
+--bs-table-active-color: #b7b7b7;
+--bs-table-active-bg: rgba(0,0,0,.1);
+--bs-table-hover-color: #b7b7b7;
+--bs-table-hover-bg: rgba(0,0,0,.075);
+border-color: #eee;
+color: #b7b7b7;
+margin-bottom: 1rem;
+vertical-align: top;
+width: 100%;
+}
+
+
+table th {
+    text-align: center;
+    padding: 0 10px;
+    border: black;
+    color: white;
+    background: #685591;
+}
+
+
+
+table tr {
+    color: black;
+    border: black;
+    border-color: black;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #d6d1e2 !important;
+    /* opacity: .5; */
+}
+
+table tbody tr td{
+    color: black;
+    border: black;
+    text-align: center;
+}
+
+/* .th table-hover {
+    background-color: #19171f !important;
+} */
+
+/* .table-hover {
+    background-color: #685591 !important;
+} */
+
+tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: white;
+}
+
+button {
+    color: ghostwhite;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background: #f5512e;
+}
+
+button:hover {
+    color: #f5512e;
+    background: ghostwhite;
+}
+
+
+/* .theme-btn {
+    color: #ffffff !important;
+    padding: 5px 20px;
+    border-radius: 35px;
+    line-height: 1;
+    background: #f5512e;
+  } */

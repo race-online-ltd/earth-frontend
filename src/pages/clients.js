@@ -1,0 +1,34 @@
+import BrandOne from "@/components/BrandSection/BrandOne";
+import CtaOne from "@/components/CtaSection/CtaOne";
+import FreeConsultation from "@/components/FreeConsultation/FreeConsultation";
+import Header from "@/components/Header/Header";
+import Layout from "@/components/Layout/Layout";
+import OurMissionTwo from "@/components/OurMission/OurMissionTwo";
+import QualityWork from "@/components/QualityWork/QualityWork";
+import PageHeader from "@/components/Reuseable/PageHeader";
+import TeamOne2 from "@/components/TeamSection/TeamOne2";
+import TestimonialOne from "@/components/TestimonialSection/TestimonialOne";
+import WorkTogetherTwo from "@/components/WorkTogether/WorkTogetherTwo";
+import WorkTogether from "@/components/WorkTogether/WorkTogether";
+import React from "react";
+
+
+const Clients = () => {
+  return (
+    <Layout pageTitle="About">
+      <Header />
+      <PageHeader page="About" title="Clients" />
+      {/* <WorkTogetherTwo /> */}
+      {/* <WorkTogether /> */}
+      {/* <FreeConsultation /> */}
+      {/* <QualityWork /> */}
+      {/* <OurMissionTwo className="our-mission-three" shape={1} /> */}
+      <TeamOne2 />
+      {/* <TestimonialOne className="testimonial-two" /> */}
+      {/* <BrandOne /> */}
+      {/* <CtaOne /> */}
+    </Layout>
+  );
+};
+
+export default Clients;
